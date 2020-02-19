@@ -1,0 +1,121 @@
+﻿body
+{
+    border-left: 20;
+    font-size: 12px;
+    color: #7c7c7c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #668e39;
+    background-color: #bce27f;
+}
+.newspara
+{
+    text-indent: 50px;
+    text-align: left;
+}
+.updates
+{
+    background-color: #c8e9b1;
+    margin: 3px;
+    width: 150px;
+    height: auto;
+    list-style-type: square;
+    list-style-position: outside;
+}
+.container
+{
+    width: 750px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 750px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('Images/header1.jpg');
+    background-repeat:repeat-x;
+}
+.sidebarup
+{
+    text-align: left;
+    float: left;
+    clear: left;
+    width: 200px;
+}
+.sidebardown
+{
+    width: 200px;
+    float: left;
+    text-align: left;
+    clear: left;
+    height: auto;
+}
+.mainbox
+{
+    width: 540px;
+    height: auto;
+    float: right;
+    text-align: left;
+}
+.footer
+{
+    width: 540px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #668e39;
+}
+#menulinks
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+#menulinks a:link
+{
+    display: block;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-color: #7c7c7c;
+    border-right-color: #cccccc;
+    background-image: url('Images/bg_nav1.jpg');
+    font-weight: bold;
+    padding: 3px 0px 3px 10px;
+    color: #21536a;
+}
+#menulinks a:visited
+{
+    display: block;
+    brder-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-color: #7c7c7c;
+    border-right-color: #cccccc;
+    background-image: url('Images/bg_nav1.jpg');
+    font-weight: bold;
+    padding: 3px 0px 3px 10px;
+    color: #21536a;
+}
+#menulinks a:hover
+{
+    brder-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #cccccc;
+    background-color: #E0E0E0;
+    background-image: none;
+    font-weight: bold;
+}
