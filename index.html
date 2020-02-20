@@ -8,30 +8,72 @@
 			CMP621A
 		-->
 		
+		<meta charset="utf-8">
+		
 		<meta name="description" content="CMP621A HTML Week 1 Tutorial">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
+		
+		<style>
+			.code-block   <!-- Class selector for CSS -->
+			{
+				color: rgb(140, 182, 194);
+			}
 			
+						
+			td, th {
+			  border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 2px;
+			}
+			
+
+		</style>
 		
         <title>HTML Week 1</title>
     </head>
     <body>
     
-        <h1>HTML: HyperText Markup Language</h1>
+		<h1> Table of Contents </h1>
+		<ul>
+			<li><a href="#video-links"> Video Links </a>
+			<li><a href="#link-embed-video"> Embedding Youtube Videos </a>
+		
+		</ul>
+		
+        <h2>HTML: HyperText Markup Language</h2>
         
         <p>Tim Berners-Lee invented the first browser at CERN, to enable researchers to share their research with eachother.</p>
     
-		
         <a target="_blank" href="http://home.web.cern.ch/topics/birth-web">Read more about the history of HTML
         
 		<p>
         <img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300">
         <br>Image courtesy CERN    
         </p>
-            
         </a>
 		
-		<h2> Video links </h2>
+		<h2>  Tables </h2>
+		Style the borders with CSS.<br>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Col 1</th>
+					<th>Col 2</th>
+					<th>Col 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>el 1</td>
+					<td>el 2</td>
+					<td>el 3</td>
+				</tr>
+			
+			</tbody>		
+		</table>
+		
+		<h2 id="video-links"> Video links </h2>
 		<p>
 			The source could be stored in a folder that is shared with the html file.
 			Look up the different syntax for linking local files (blank, ..  or /)
@@ -63,7 +105,7 @@
 		  Your browser does not support the audio element.
 		</audio>
 
-		<h2> Embedding Video from Youtube </h2>
+		<h2 id="link-embed-video"> Embedding Video from Youtube </h2>
 			<ol>
 				<li>Visit a youtube video.
 				<li>Select SHARE
