@@ -11,21 +11,59 @@
         <p>Tim Berners-Lee invented the first browser at CERN, to enable researchers to share their research with eachother.</p>
     
         <a target="_blank" href="http://home.web.cern.ch/topics/birth-web">Read more about the history of HTML
-            <p>
+        
+		<p>
         <img src="https://www.kasandbox.org/programming-images/misc/tim-berners-lee-webpage.png" width="300">
         <br>Image courtesy CERN    
         </p>
             
         </a>
 		
-		<h2> Video and audio links </h2>
+		<h2> Video links </h2>
 		<p>
+			The source could be stored in a folder that is shared with the html file.
+			Look up the different syntax for linking local files (blank, ..  or /)
+			<br>
+			<p class = "code-block">
+				&ltvideo width="320" height="240" controls autoplay>  <br>
+				&ltsource src="Video/video.mp4" type="video/mp4"> 	  <br>	
+				Your browser does not support the video tag.			
+				&lt/video>
+				
+			</p>
 			<video width="320" height="240" controls autoplay>
-			<source src="../Video/video.mp4" type="video/mp4">
+			<source src="Video/video.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 			</video>
 		</p>
+		
+		<h2> Audio links </h2>
         
+		
+		<h2> Embedding Video from Youtube </h2>
+			<ol>
+				<li>Visit a youtube video.
+				<li>Select SHARE
+				<li>Select EMBED
+				<li>You can select all or some of the embed code. Specifically the unique movie code which tends to be a series of numbers/letters.
+			</ol>
+				
+				
+				<h5>COMPLEX EMBED </h5>
+				<p class="code-block">
+				&ltiframe width="560" height="315" src="h ttps://www.youtube.com/embed/<strong>2QyvO5ainpw</strong>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt/iframe>  <br>
+				</p>
+				
+				<h5>SIMPLE EMBED (example shown below)</h5>
+				<p class="code-block">
+				&ltiframe width="350" height="250"
+					src="https://www.youtube.com/embed/2QyvO5ainpw">
+				&lt/iframe>
+				</p>
+				
+			<iframe width="350" height="250"
+					src="https://www.youtube.com/embed/2QyvO5ainpw">
+			</iframe>
         
     </body>
 </html>
